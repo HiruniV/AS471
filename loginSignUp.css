@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://www.chiswickdiy.co.uk/wp-content/uploads/2016/11/hand-tools-supplies.png");
+    background-size:  cover;
+    background-position:center center;
+    font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+    margin: 0;
+	color:white;
+	margin-top: 50px;
+	
+}
+
+.container {
+    background: linear-gradient(180deg, rgb(70, 69, 69) 0%, rgb(85, 85, 85) 58%, rgba(233, 233, 140, 0.141) 98%);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+	
+}
+
+.header {
+
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+    padding: 20px 40px;
+    color:white;
+}
+
+.header h2 {
+	margin: 0;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #500b03;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control small {
+	color: #dd2612;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #000000;
+	border: 2px solid #020003;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+.form-control p{
+	color:#fff;
+	font-size: 1.6ex;
+	text-align: right;
+}
+
